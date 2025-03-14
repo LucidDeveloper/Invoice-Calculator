@@ -1,6 +1,6 @@
 # Developer: Gianni M. Javier
 # Created: 02/03/2024
-# Last Updated: 02/14/2025
+# Last Updated: 03/14/2025
 
 # write totals to file
 def write_total(file_path, file_name, total_hours, total_gross_pay, total_taxes, total_net_pay, total_service_charge):

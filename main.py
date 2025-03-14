@@ -1,6 +1,6 @@
 # Developer: Gianni M. Javier
 # Created: 02/03/2024
-# Last Update: 02/14/2025
+# Last Update: 03/14/2025
 
 # This program calculates the daily gross pay, taxes, net pay, and service charge for a pay period. 
 # It then writes each days pay and the total to a file.
@@ -43,7 +43,7 @@ def main():
     year_end = input_end_date[4:8]
     input_end_date = month_end + "_" + day_end + "_" + year_end
 
-    directory = "C:/Users/Gianni/Desktop/SoftwareEngineering/Projects/InvoiceCalculator/archive/"
+    directory = "C:/Users/Gianni/Desktop/Software Engineering/Projects/InvoiceCalculator/archive/"
     file_name = "_pay_period_" + input_start_date + "_to_" + input_end_date
     file = year_end + file_name + ".txt"
     file_path = directory + file
