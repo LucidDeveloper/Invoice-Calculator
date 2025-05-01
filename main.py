@@ -1,6 +1,6 @@
 # Developer: Gianni M. Javier
 # Created: 02/03/2024
-# Last Update: 03/14/2025
+# Last Update: 05/01/2025
 
 # This program calculates the daily gross pay, taxes, net pay, and service charge for a pay period. 
 # It then writes each days pay and the total to a file.
@@ -19,10 +19,10 @@ from functions.write_total import write_total
 # Main
 def main():
     
-    # Variables
+    # Default Variables
     day = 0
-    hourly_rate = 19.15
-    tax_rate = 0.26
+    hourly_rate = 20.10
+    tax_rate = 0.31
     total_hours = 0.00
     total_gross_pay = 0.00
     total_taxes = 0.00
